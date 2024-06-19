@@ -1,0 +1,28 @@
+# list.append()
+# list.insert(i, x)
+# list.remove(x)
+# list.pop([i])
+# list.clear()
+# list.index(x[,start[, end]])
+# list.count(x)
+# list.sort(*, key=None, reverse=False)
+# list.reverse()
+# list.copy()
+cities=["Delhi","Mumbai","Mumbai","Goa","Kasmeer","Bangalore"]
+# print(cities)
+# cities.append("Hyderabad")
+# print(cities)
+# cities.insert(2,"Bangalore")
+# cities.remove("Mumbai")
+cities.pop(4)
+# print(cities.index("Goa"))
+# print(cities.count("Mumbai"))
+cities.sort()
+print(cities)
+cities.reverse()
+print(cities)
+new_cities=cities
+print(cities)
+updatedlist= new_cities
+print(updatedlist.clear())
+
